@@ -1,0 +1,44 @@
+html{
+    border:3px solid #9B5DE5;
+}
+body{
+    background-image: url("background.png");
+    background-position: cover;
+}
+.heading{
+    width: 100%;
+}
+.heading h3{
+    display: inline;
+    margin-top: 5px;
+}
+.heading button{
+    border:1px solid white;
+    border-radius: 8px;
+    padding: 5px;
+    float : right;
+    font-size: 17px;
+
+}
+.modal-dialog{
+    width: 90%;
+    background-color: #00BBF9;
+    border: 2px solid #00F5D4;
+    border-radius: 10px;
+}
+#ins{
+    font-family: 'Rubik Microbe', cursive;
+    color: #FEE440;
+}
+.instruction-image{
+    display: inline-block;
+}
+.modal-body{
+    background-color: #9B5DE5;
+}
+ol{
+    color: #00F5D4;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    text-align: left;
+}
