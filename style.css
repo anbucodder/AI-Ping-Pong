@@ -7,6 +7,8 @@ body{
 }
 .heading{
     width: 100%;
+    border: 3px solid #00F5D4;
+    border-radius: 10px;
 }
 .heading h3{
     display: inline;
@@ -20,6 +22,10 @@ body{
     font-size: 17px;
 
 }
+canvas{
+    border: 3px solid 10px #00BBF9;
+}
+
 .modal-dialog{
     width: 90%;
     background-color: #00BBF9;
@@ -41,4 +47,14 @@ ol{
     font-family: 'Comic Neue', cursive;
     font-size: 20px;
     text-align: left;
+}
+nav{
+    background-color: #9B5DE5;
+    color: #FEE440;
+    font-size: 20px;
+    padding: 8px;
+    bottom: 0;
+}
+.restart{
+    font-size: 25px;
 }
