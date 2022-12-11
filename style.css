@@ -1,9 +1,8 @@
-html{
-    border:3px solid #9B5DE5;
-}
 body{
     background-image: url("background.png");
     background-position: cover;
+    border:5px solid #038bd9;
+    border-radius: 10px;
 }
 .heading{
     width: 100%;
@@ -52,9 +51,18 @@ nav{
     background-color: #9B5DE5;
     color: #FEE440;
     font-size: 20px;
-    padding: 8px;
-    bottom: 0;
+    padding: 10px;
+    bottom: -8px;
+    border-bottom: 5px solid #038bd9;
 }
 .restart{
     font-size: 25px;
+}
+#game_console{
+    background: url("game_console.jpg");
+    background-size: cover;
+    width: 750px;
+    height: 357px;
+    background-position: center;
+    padding: 100px;
 }
