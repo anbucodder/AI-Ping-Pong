@@ -1,3 +1,6 @@
+status = "false"
+rightwristy ="";
+rightwristx ="";
 function preload() {
     back = loadImage("ping-pong.jpg");
     ball  = loadImage("ball.png");
@@ -22,10 +25,18 @@ function setup() {
 function gotposes(results){
     if(results.length > 0){
        rightwristy = results[0].pose.rightWrist.y;
+       rightwristX = results[0].pose.rightWrist.y;
        console.log(results);
-       console.log("Right wrist y = "+rightwristy);
+       console.log("Right wrist y = "+rightwristy+"Right wrist x = "+rightwristx);
+    }
+    if(rightwristy > 0){
+        status = "true";
     }
 }
 function draw() {
 	image(back,0,0,700,400);
+    if(status === "true"){
+        fill("#ff0000");
+        circle(rightwristx , rightwristy , 20);
+    }
 }
