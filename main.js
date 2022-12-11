@@ -1,6 +1,5 @@
 function preload() {
     back = loadImage("ping-pong.jpg");
-    ball  = loadImage("ball.png");
 }
 
 function setup() {
